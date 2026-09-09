@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>BNW — Уличный бой</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="game-shell">
+<header class="hud"><div class="hero-box"><div class="avatar">B</div><div><b>BNW</b><span>Уровень <strong id="level">1</strong></span></div></div><div class="health"><div class="health-label">ЗДОРОВЬЕ <b id="hpText">100</b></div><div class="bar"><i id="hpBar"></i></div></div><div class="score">ОЧКИ <b id="score">0</b></div><button id="pause" aria-label="Пауза">Ⅱ</button></header>
+<main class="stage-wrap"><canvas id="game" aria-label="BNW 2D игра"></canvas><div id="message" class="message hidden"></div><div class="controls"><div id="stick" class="stick"><span></span></div><div class="actions"><button id="block" class="action block">🛡</button><button id="kick" class="action">🦵</button><button id="punch" class="action punch">👊</button></div></div></main><footer>Двигайся • бей • блокируй • очисти улицу</footer>
+</div><script src="game.js"></script>
+</body></html>
