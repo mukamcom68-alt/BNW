@@ -34,3 +34,4 @@ public class MainActivity extends Activity {
         setContentView(view);
     }
 }
+// BNW background-only build trigger
