@@ -29,7 +29,7 @@ public class MainActivity extends Activity {
         view.setWebViewClient(new WebViewClient());
         view.loadDataWithBaseURL(
             "file:///android_asset/game/",
-            "<!doctype html><html><head><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><style>html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#000}img{width:100vw;height:100vh;object-fit:cover;display:block}</style></head><body><img src=\"background.svg\"></body></html>",
+            "<!doctype html><html><head><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\"><style>html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#000}img{width:100vw;height:100vh;object-fit:cover;display:block}</style></head><body><img src=\"background.jpg\"></body></html>",
             "text/html", "UTF-8", null);
         setContentView(view);
     }
